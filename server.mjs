@@ -9,7 +9,7 @@ const __dirname = path.resolve();
 const PORT = process.env.PORT || 5001
 const app = express()
 
-mongoose.connect('mongodb+srv://farazbaig:farazbaig1997@cluster0.wzuqx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://junaid:Junaid@cluster0.syy28.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 
 const Score = mongoose.model("Score", {
     teamOne: String,
