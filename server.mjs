@@ -18,6 +18,10 @@ const Score = mongoose.model("Score", {
     score: String,
     wicket: String,
     over: String,
+    bowler1: String,
+    bowler2: String,
+    bowler3: String
+
 })
 app.use(express.json())
 
